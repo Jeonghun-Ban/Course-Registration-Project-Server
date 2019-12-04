@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class CheckDuplication {
+import home.frameworks.CheckDuplicationInterface;
+
+public class CheckDuplication implements CheckDuplicationInterface{
 
 	public static boolean checkOverLapData(String str1, String str2) {
 		return str1.equals(str2);
