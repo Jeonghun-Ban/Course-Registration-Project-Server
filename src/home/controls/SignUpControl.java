@@ -16,4 +16,8 @@ public class SignUpControl implements SignUpInterface {
 	public boolean personAuthenticate(String inputNumber) throws FileNotFoundException {
 		return signUpDao.personAuthenticate(inputNumber);
 	}
+	
+	public void createUserData(String id) {
+		signUpDao.createUserData(id);
+	}
 }

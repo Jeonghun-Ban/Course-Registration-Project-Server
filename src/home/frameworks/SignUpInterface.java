@@ -9,4 +9,6 @@ public interface SignUpInterface extends Remote {
 	public boolean idAuthenticate(String inputID) throws FileNotFoundException, RemoteException;
 	
 	public boolean personAuthenticate(String inputNumber) throws FileNotFoundException, RemoteException;
+	
+	public void createUserData(String id) throws RemoteException;
 }

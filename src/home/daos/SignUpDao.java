@@ -2,6 +2,7 @@ package home.daos;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 import home.model.UserModel;
@@ -55,5 +56,20 @@ public class SignUpDao {
 		
 		scanner.close();
 		return false;
+	}
+
+	public void createUserData(String id) {
+		// TODO Auto-generated method stub
+		
+		// 회원가입한 사용자의 파일 생성
+		try {
+			File basket = new File("data/user/" + id + "_Basket");
+			basket.createNewFile();
+			File register = new File("data/user/" + id + "_Register");
+			register.createNewFile();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
