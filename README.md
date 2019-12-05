@@ -8,3 +8,8 @@ Course-Registration-Project-Server
 Info
 ---
 This Project was implemented in the Java RMI-Communication and JavaFX.
+
+Download
+---
+- [Client Program Source Code](https://github.com/Jeonghun-Ban/Course-Registration-Project/releases/tag/v1.0)
+- [Server Program Source Code](https://github.com/Jeonghun-Ban/Course-Registration-Project-Server/releases/tag/v1.0)
