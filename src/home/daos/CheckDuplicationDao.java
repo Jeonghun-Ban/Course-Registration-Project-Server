@@ -34,7 +34,7 @@ public class CheckDuplicationDao implements CheckDuplicationInterface{
 				}
 			}
 			
-			if(mode=="AddLecture") {
+			if(mode.equals("AddLecture")) {
 				fileWriter.write(selectedLectures);				
 			}
 			
