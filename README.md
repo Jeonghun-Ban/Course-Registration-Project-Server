@@ -7,4 +7,4 @@ Course-Registration-Project-Server
 
 Info
 ---
-This Project was implemented in the Java language and JavaFX.
+This Project was implemented in the Java RMI-Communication and JavaFX.
