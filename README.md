@@ -9,6 +9,8 @@ Info
 ---
 This Project was implemented in the Java RMI-Communication and JavaFX.
 
+Special thanks to [Mansoo-Kim](https://github.com/TwoShot22)
+
 Download
 ---
 - [Client Program Source Code](https://github.com/Jeonghun-Ban/Course-Registration-Project/releases/tag/v1.0)
